@@ -1,0 +1,37 @@
+# --- Backend ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# private uploaded files / local dev database
+backend/storage/
+*.db
+*.sqlite3
+
+# --- Mobile / Node ---
+node_modules/
+.expo/
+.expo-shared/
+dist/
+web-build/
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Secrets / keys ---
+*.pem
+*.key
+google-services.json
+GoogleService-Info.plist
+*.jks
+*.keystore
